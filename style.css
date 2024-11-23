@@ -89,7 +89,6 @@ nav {
   height: 100px;
 }
 .new-arrival {
-  /* background-color: blue; */
   height: 200px;
 }
 .promotion {
@@ -99,7 +98,15 @@ nav {
 .service {
   display: block;
   height: 200px;
+  font-size: xx-large;
+  overflow: hidden;
 }
+.box {
+  text-align: center;
+  width: 50%;
+  margin-top: 100px;
+}
+
 footer {
   background-color: white;
   font-size: small;
