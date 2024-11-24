@@ -89,7 +89,11 @@ nav {
   height: 100px;
 }
 .new-arrival {
-  height: 200px;
+  height: 400px;
+}
+.card-img-top {
+  /* height: 150px; */
+  /* width: auto; */
 }
 .promotion {
   background-color: white;
@@ -121,4 +125,24 @@ footer a {
   color: 88bcee;
   border: 10px solid white;
   border-radius: 20px;
+}
+@media screen and (min-width: 576px) {
+  .carousel-inner {
+    display: flex;
+  }
+  .carousel-item {
+    display: block;
+    margin: 0;
+    flex: 0 0 calc(100% / 3);
+  }
+}
+.carousel-inner {
+  padding: 1em;
+}
+.card {
+  margin: 0.5em;
+}
+.img-wrapper {
+  max-width: 50%;
+  height: 23vw;
 }
